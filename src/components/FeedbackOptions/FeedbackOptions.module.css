@@ -1,0 +1,8 @@
+.feedbackBtnBox {
+    display: inline-flex;
+    gap: 10px;
+}
+.btn {
+    padding-block: 6px;
+    width: 60px;
+}
