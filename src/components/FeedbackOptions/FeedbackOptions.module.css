@@ -5,4 +5,23 @@
 .btn {
     padding-block: 6px;
     width: 60px;
+    cursor: pointer;
+}
+
+.good:hover {
+    background-color: rgb(74, 224, 74);
+    border: 0;
+    border-radius: 2px;
+}
+
+.neutral:hover {
+    background-color: rgb(241, 241, 85);
+    border: 0;
+    border-radius: 2px;
+}
+
+.bad:hover {
+    background-color: rgb(243, 37, 37);
+    border: 0;
+    border-radius: 2px;
 }
