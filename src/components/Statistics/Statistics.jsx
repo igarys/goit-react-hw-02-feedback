@@ -10,7 +10,7 @@ export const Statistics = ({
   positivePercentage,
   colorChange,
 }) => (
-  (colorChange = positivePercentage <= 45 ? 'red' : (positivePercentage <= 65 ? 'orange' : 'green')),
+  (colorChange = positivePercentage <= 45 ? 'red' : (positivePercentage <= 65 ? 'orange' : 'green'))
   (
     <div>
       <span className={css.stats}>Good: {good}</span>
